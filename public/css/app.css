@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+
+
+.navbar-nav > li {
+    /* margin-left:30px; */
+    margin-right: 10px;
+}
+
+
+
+.btn {
+   
+    height: 40px !important;
+    border: 2px solid black;
+    background: #00ffae;
+    color: #2f373b;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 40px;
+    font-family: "Inter", sans-serif;
+    box-shadow: 5px 5px 0px 0px #000000;
+    border-radius: 0 !important;
+    transition: 0.5s;
+
+}
+
+.faqbutton {
+    
+   height: 40px !important;
+   border: 4px solid black;
+   color: black;
+   font-weight: 600;
+   font-size: 15px;
+   padding: 20px;
+   text-align: center;
+   text-align:center; 
+   vertical-align:middle;
+   border-radius: 0%;
+   margin: 5px;
+   font-family: "Inter", sans-serif;
+   background-color: white;
+   
+}
+
+.bottomcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.center-right {
+    
+align-items: center;
+}
+
+.faqbutton:hover{
+    color: black;
+    background-color: #00ffae;
+    transition: 0.5s;
+    
+}
+
+
+h1 {
+    /* font-family: Montserrat, sans-serif; */
+    font-weight: 900;
+    font-size: 64px;
+    text-align: left;
+    text-shadow: 5px 5px 0px #00ffae;
+    
+}
+
+h2 {
+    /* font-family: Montserrat, sans-serif; */
+    font-weight: 900;
+    font-size: 24px;
+    text-align: left;
+    text-shadow: 2px 2px 0px #00ffae;
+    
+    letter-spacing: 1px;
+}
+
+span {
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #2f373c;
+   
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #2f373c;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+
+ul {
+    
+    padding: 0;
+    
+  }
+  li i{
+    padding-left: 1.3em;
+    list-style: none;
+
+  }
+  li i:before {
+    content: "\f560"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    padding-bottom: 2em;
+    width: 1.3em; 
+  }
+
+  
+
+/* .fa-check-double {
+    float: left;
+
+    margin-right: 10px;
+    background-color: #00ffae;
+    color: #2f373c;
+    font-size: 15px;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+    line-height: 15px;
+    width: 30px;
+    height: 30px; 
+    line-height: 30px;
+    vertical-align: middle;
+    
+    transition: all 0.3s ease-in-out;
+
+} */
+mark { display: inline-block; 
+       /* height: 1.15em; */
+       
+       line-height: 1; }
+
+.regbutton {
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    background-color : #00f3a2;
+    border: 1px solid #00f3a2;
+    padding: 0px 0px;
+   text-decoration: bold;
+    box-shadow: 5px 5px 0px 1px #ee5eff;
+    
+    
+}
+.border-left {
+    border-left: 2px solid #00ffae!important;
+}
+
+.uptext {
+    /* margin-top: 30px; */
+    width : 50%;
+    margin-left: 45%;
+    margin-bottom : 26%;
+    font-stretch: ultra-expanded;
+}
+
+
