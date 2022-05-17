@@ -13,11 +13,19 @@ cd sitemaya
 ```
 composer install
 ```
-### 5. Run Server
+### 5. Change .env.example to .env
+```
+cp .env.example .env
+```
+### 6. Generate key
+```
+php artisan key:generate
+```
+### 7. Run server
 ```
 php artisan serve
 ```
-### 6. Import sql
+### 8. Open in localhost
 ```
 open localhost:8000 in your web browser
 ```
