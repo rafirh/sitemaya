@@ -1,5 +1,5 @@
 # How to clone this project:
-### 1. Open terminal & change directory to save this project
+### 1. Open terminal, change directory to save this project, & make sure to use php version 8.1.5
 
 ### 2. Clone project
 ```
